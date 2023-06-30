@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  background-color: rgba(223, 233, 217, 0.8);
+  background-image:url(https://img.freepik.com/free-vector/vintage-geometric-ramen-soup-background_52683-45970.jpg?w=2000);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  font-size: 32px;
+  text-shadow: -1px -1px rgb(177, 19, 19), 1px 1px rgb(128, 55, 55), -3px 0 4px #0c0a0a;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(236, 230, 230);
+  padding:16px;
+  font-weight:lighter;
+  -moz-box-shadow: 2px 2px 6px #080808;  
+  -webkit-box-shadow: 2px 2px 6px #ecdede;  
+  box-shadow:2px 2px 6px #888;  
+  text-align:center;
+  display:block;
+  margin:16px;
+}
+
+h2 {
+  font-size: 20px;
+  text-shadow: -1px -1px rgb(226, 220, 220), 1px 1px rgb(128, 55, 55), -3px 0 4px #0c0a0a;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(209, 25, 25);
+  padding:16px;
+  font-weight:lighter;
+}
+
+p {
+  color: rgb(7, 6, 6);
+  font-size: 20px;
+  padding: 10px;
+} 
+
+.recipe_card {
+  text-align: center;
+  background-color: black;
+  border-radius: 20px;
+  border: 1px solid #131413;
+  width: 60vw;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+
+}
+
+img {
+  width: 5vw;
+  border-radius: 5px;
+}
+
+.test-flex {
+
+  display: flex;
+  justify-content: center;
+  align-items: left;
+
+.red-i {
+  color: red;
+}
+
+#recipe_img {
+  width: 5px;
+  height: 5px;
+}
+
+.background-blue {
+  background-color: blue;
+}
+
+.width-40vw {
+  width: 40vw;
+}
